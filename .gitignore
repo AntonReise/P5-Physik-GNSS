@@ -1,0 +1,49 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Claude
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# RTKLIB build artifacts
+RTKLIB/bin/*.exe
+RTKLIB/**/*.o
+RTKLIB/**/*.obj
+RTKLIB/**/*.a
+
+# Vendored upstream tools (clone separately — see SETUP.md)
+android_rinex/
+RTKLIB/
+
+# analysis cache (regenerable)
+analysis/cache/
+
+# Logs / temp
+*.log
+*.tmp
